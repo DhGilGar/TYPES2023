@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  margin:0; 
+  padding:0;
+}	
+
+#main_container { 
+  min-height:100%; 
+  position:absolute; 
+} 
+
+#head_full {
+   background-color: #222;
+
+}
+
+
+
+#headphoto {
+   background: url("../imagen/valencia.jpg")no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+	height: 25rem;
+
+}
+
+.Container {
+	height: 100%;
+}
+
+
+#title {
+	
+	font-size: 6rem;
+	color: #F39E00;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	font-weight: 900;
+	padding-left: 4rem;
+	position: relative;
+	
+}
+
+
+#subtitle {
+	font-size: 2.9rem;
+	color: #fff;
+	font-weight: 300;
+	margin-left: 5rem;
+  background-color: hsla(222, 93%, 48%, .5);
+	height: auto;
+	position:relative;
+
+}
+
+h1 {
+	font-size: 4rem;
+	color: #807F7F;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	font-weight: 1000;
+	border-bottom: #F39E00 medium solid;
+	padding-bottom: 0.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 300;
+	border-bottom: #fff thin solid;
+}
+
+p {
+	font-size: 2rem;
+	color: #807F7F;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.list {
+	font-size: 2rem;
+	color: #807F7F;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.sponsor {
+    background: #094DEC;
+    height: auto;
+    margin-top: 70px;
+	padding: 1rem;
+	padding-top: 0rem;
+}
+
+.patrocinadores {
+	background: #094DEC;
+	height: auto;
+	padding: 3rem;
+	
+}
+
+
+.sponsor .patrocinadores.col-md-3 img {
+	width: 100%;
+	
+}
+
+
+
+
+.to-top {
+ 	color: #fff;	
+	flex-grow:1;
+    text-align:right;
+} 
+
+
+
+ #breadcrumbs{
+	color: #fff;
+	height: 3rem;
+	background: #F39E00;
+	align-content: center;
+	margin-top: -2rem;
+	padding-left: 3rem;
+	display: flex;
+	align-items: center;
+
+}
+
+
+#breadcrumbs #breadcrumbs-box a {
+	text-decoration: none;
+	color:#fff;
+}
+#breadcrumbs #breadcrumbs-box .glyphicon.glyphicon-chevron-right {
+	margin-right: 0.2rem;
+	margin-left:  0.2rem;
+}
+
+
+.title_name {
+	font-size: 3rem;
+	color: #F39E00;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-weight: 900;
+}
+.Speakers_group {
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	height: auto;
+	
+}
+ .Speakers-photo.col-md-3 img {
+	 width: 100%;
+	 
+}
+.Speakers-text.col-md-9 .title_name .glyphicon.glyphicon-user {
+	
+	margin-right: 1rem;
+	font-size: 2.5rem;
+	color: #F39E00;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-weight: 900;
+	
+}
+.container .abs-center {
+	border-bottom: #F39E00 medium solid;
+	padding-bottom: 0.5rem;
+	height: 100%;
+}
+.calendar {
+	background-color: hsla(222, 93%, 48%, .1);
+	padding: 3rem;
+}
+
+
+#footer {
+ 	   background: #222;
+	   height: 5rem;
+	   display: flex;
+	   align-items: center;
+	   margin-top: 70px;
+	   position:relative; 
+       bottom:0;
+	   padding-right: 3rem;
+ 	
+}
+
