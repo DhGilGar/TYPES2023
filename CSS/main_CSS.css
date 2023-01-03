@@ -54,7 +54,7 @@ body {
 	color: #fff;
 	font-weight: 300;
 	margin-left: 5rem;
-  background-color: hsla(222, 93%, 48%, .5);
+    background-color: hsla(222, 93%, 48%, .5);
 	height: auto;
 	position:relative;
 
@@ -112,14 +112,6 @@ p {
 	
 }
 
-
-
-
-.to-top {
- 	color: #fff;	
-	flex-grow:1;
-    text-align:right;
-} 
 
 
 
@@ -196,3 +188,16 @@ p {
  	
 }
 
+
+#footer .to-top {
+ 	color: #807F7F;	
+	flex-grow:1;
+    text-align:right;
+	text-decoration: none;
+} 
+
+#footer .to-top:hover {
+ 	color: #fff;
+	transition: background-color .5s;
+	
+} 
