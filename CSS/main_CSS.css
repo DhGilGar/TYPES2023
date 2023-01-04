@@ -1,11 +1,10 @@
 @charset "utf-8";
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 
 body {
-  font-family: 'Open Sans', 'sans-serif';
-  margin:0; 
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  margin: 0; 
   padding:0;
 }	
 
@@ -22,7 +21,7 @@ body {
 
 
 #headphoto {
-   background: url("../imagen/valencia.jpg")no-repeat center center fixed;
+   background: url("../imagen/valencia11.jpg")no-repeat fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -37,7 +36,7 @@ body {
 
 
 #title {
-	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 6rem;
 	color: #F39E00;
 	margin-bottom: 2rem;
@@ -50,10 +49,12 @@ body {
 
 
 #subtitle {
-	font-size: 2.9rem;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 3rem;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 500;
 	margin-left: 5rem;
+	margin-right: 5rem;
     background-color: hsla(222, 93%, 48%, .5);
 	height: auto;
 	position:relative;
@@ -61,23 +62,26 @@ body {
 }
 
 h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 4rem;
 	color: #807F7F;
 	margin-bottom: 3rem;
 	margin-top: 3rem;
-	font-weight: 1000;
+	font-weight: 800;
 	border-bottom: #F39E00 medium solid;
 	padding-bottom: 0.5rem;
 }
 
 h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 2rem;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 500;
 	border-bottom: #fff thin solid;
 }
 
 p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 2rem;
 	color: #807F7F;
 	margin-bottom: 2rem;
@@ -91,7 +95,7 @@ p {
 	margin-top: 2rem;
 }
 
-.sponsor {
+ .sponsor.col-md-12 {
     background: #094DEC;
     height: auto;
     margin-top: 70px;
@@ -145,26 +149,26 @@ p {
 	margin-top: 1rem;
 	font-weight: 900;
 }
-.Speakers_group {
+.Group {
 	margin-bottom: 3rem;
 	margin-top: 3rem;
 	height: auto;
 	
+	
 }
+
+
  .Speakers-photo.col-md-3 img {
 	 width: 100%;
 	 
 }
-.Speakers-text.col-md-9 .title_name .glyphicon.glyphicon-user {
-	
-	margin-right: 1rem;
-	font-size: 2.5rem;
-	color: #F39E00;
+.Text {
 	margin-bottom: 1rem;
-	margin-top: 1rem;
-	font-weight: 900;
-	
+	height: auto;
 }
+
+
+
 .container .abs-center {
 	border-bottom: #F39E00 medium solid;
 	padding-bottom: 0.5rem;
@@ -201,3 +205,24 @@ p {
 	transition: background-color .5s;
 	
 } 
+
+@media (max-width: 450px) {
+
+#title {
+	
+	font-size: 5rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+
+}
+
+
+#subtitle {
+	font-size: 2rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	height: auto;
+}
+
+	
+}
