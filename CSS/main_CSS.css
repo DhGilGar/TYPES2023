@@ -50,7 +50,7 @@ body {
 
 #subtitle {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 3rem;
+	font-size: 2.6rem;
 	color: #fff;
 	font-weight: 500;
 	margin-left: 5rem;
@@ -75,9 +75,9 @@ h1 {
 h3 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 2rem;
-	color: #fff;
+	color: #807F7F;
 	font-weight: 500;
-	border-bottom: #fff thin solid;
+	border-bottom: #807F7F thin solid;
 }
 
 p {
@@ -96,15 +96,17 @@ p {
 }
 
  .sponsor.col-md-12 {
-    background: #094DEC;
-    height: auto;
+    background: #eeeeee;
     margin-top: 70px;
 	padding: 1rem;
 	padding-top: 0rem;
+	border-radius: 2rem;
+	height: auto;
+	 overflow: hidden;
 }
 
 .patrocinadores {
-	background: #094DEC;
+	background: #eeeeee;
 	height: auto;
 	padding: 3rem;
 	
@@ -205,6 +207,10 @@ p {
 	transition: background-color .5s;
 	
 } 
+.Text.col-md-12 p .glyphicon.glyphicon-user {
+	margin-right: 1rem;
+}
+
 
 @media (max-width: 450px) {
 
