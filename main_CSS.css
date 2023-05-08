@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+
+
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  margin: 0; 
+  padding:0;
+}	
+
+#main_container { 
+  min-height:100%; 
+  position:absolute; 
+} 
+
+#head_full {
+   background-color: #222;
+
+}
+
+
+
+#headphoto {
+   background: url("../imagen/valencia11.jpg")no-repeat fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+	height: 25rem;
+
+}
+
+.Container {
+	height: 100%;
+}
+
+
+#title {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 6rem;
+	color: #F39E00;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	font-weight: 900;
+	padding-left: 4rem;
+	position: relative;
+	
+}
+
+
+#subtitle {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2.6rem;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 5rem;
+	margin-right: 5rem;
+    background-color: hsla(222, 93%, 48%, .5);
+	height: auto;
+	position:relative;
+
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 4rem;
+	color: #807F7F;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	font-weight: 800;
+	border-bottom: #F39E00 medium solid;
+	padding-bottom: 0.5rem;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 3rem;
+	color: #807F7F;
+	font-weight: 500;
+    margin-bottom: 2rem;
+}
+h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2rem;
+	color: #807F7F;
+	font-weight: 500;
+	border-bottom: #807F7F thin solid;
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2rem;
+	color: #807F7F;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+p2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.7rem;
+	color: #807F7F;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.list {
+	font-size: 2rem;
+	color: #807F7F;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+ .sponsor.col-md-12 {
+    background: #eeeeee;
+    margin-top: 70px;
+	padding: 1rem;
+	padding-top: 0rem;
+	border-radius: 2rem;
+	height: auto;
+	 overflow: hidden;
+}
+
+.patrocinadores {
+	background: #eeeeee;
+	height: auto;
+	padding: 3rem;
+	
+}
+
+
+.sponsor .patrocinadores.col-md-3 img {
+	width: 100%;
+	
+}
+
+
+
+
+ #breadcrumbs{
+	color: #fff;
+	height: 3rem;
+	background: #F39E00;
+	align-content: center;
+	margin-top: -2rem;
+	padding-left: 3rem;
+	display: flex;
+	align-items: center;
+
+}
+
+
+#breadcrumbs #breadcrumbs-box a {
+	text-decoration: none;
+	color:#fff;
+}
+#breadcrumbs #breadcrumbs-box .glyphicon.glyphicon-chevron-right {
+	margin-right: 0.2rem;
+	margin-left:  0.2rem;
+}
+
+
+.title_name {
+	font-size: 3rem;
+	color: #F39E00;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-weight: 900;
+}
+.Group {
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	height: auto;
+	
+	
+}
+
+
+ .Speakers-photo.col-md-3 img {
+	 width: 100%;
+	 
+}
+.Text {
+	margin-bottom: 1rem;
+	height: auto;
+}
+
+
+
+.container .abs-center {
+	padding-bottom: 0.5rem;
+	height: 100%;
+}
+.calendar {
+	background-color: hsla(222, 93%, 48%, .1);
+	padding: 3rem;
+}
+
+
+#footer {
+ 	   background: #222;
+	   height: 5rem;
+	   display: flex;
+	   align-items: center;
+	   margin-top: 70px;
+	   position:relative; 
+       bottom:0;
+	   padding-right: 3rem;
+ 	
+}
+
+
+#footer .to-top {
+ 	color: #807F7F;	
+	flex-grow:1;
+    text-align:right;
+	text-decoration: none;
+} 
+
+#footer .to-top:hover {
+ 	color: #fff;
+	transition: background-color .5s;
+	
+} 
+.Text.col-md-12 p .glyphicon.glyphicon-user {
+	margin-right: 1rem;
+}
+
+
+@media (max-width: 450px) {
+
+#title {
+	
+	font-size: 5rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+
+}
+
+
+#subtitle {
+	font-size: 2rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	height: auto;
+}
+
+    a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+	
+}
